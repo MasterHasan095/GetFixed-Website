@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+/* Smooth section scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Helps anchor scroll with sticky header */
+section[id] {
+  scroll-margin-top: 96px;
+}
+
+/* Better tap targets on mobile */
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
