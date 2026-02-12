@@ -1,6 +1,7 @@
 import { Facebook, Instagram, MapPin, PhoneCall } from "lucide-react";
 import Container from "./ui/Container.jsx";
 import { BUSINESS, getTelLink } from "../data/site.js";
+import logo from "../assets/logo.svg";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <img
-                src="/src/assets/logo.svg"
+                src={logo}
                 alt=""
                 className="h-10 w-10"
                 width="40"
@@ -48,29 +49,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div>
-            <p className="text-sm font-bold">Socials (placeholders)</p>
-            <div className="mt-3 flex gap-3">
-              <a
-                href="#"
-                aria-label="Instagram (placeholder)"
-                className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-black/10 bg-white/70 hover:bg-white focus:outline-none focus:ring-2 focus:ring-brand-primary/40"
-              >
-                <Instagram className="h-5 w-5 text-brand-text" />
-              </a>
-              <a
-                href="#"
-                aria-label="Facebook (placeholder)"
-                className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-black/10 bg-white/70 hover:bg-white focus:outline-none focus:ring-2 focus:ring-brand-primary/40"
-              >
-                <Facebook className="h-5 w-5 text-brand-text" />
-              </a>
-            </div>
 
-            <p className="mt-4 text-xs text-black/60">
-              Replace social links in <span className="font-mono">src/components/Footer.jsx</span>.
-            </p>
-          </div>
         </div>
 
         <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-black/10 pt-6 sm:flex-row sm:items-center">

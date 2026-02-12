@@ -6,14 +6,15 @@ import { BUSINESS, getTelLink, getWhatsAppLink } from "../data/site.js";
 
 export default function Hero() {
   return (
-    <Section className="pt-10 sm:pt-14">
+<Section className="pt-20 sm:pt-14">
       <Container>
         <div className="grid items-center gap-10 lg:grid-cols-2">
-          <div>
-            <p className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white/60 px-4 py-2 text-sm">
-              <span className="h-2 w-2 rounded-full bg-brand-primary" aria-hidden="true" />
-              Rockwood Mall • Mississauga
-            </p>
+<div className="text-center sm:text-left">
+<p className="mx-auto inline-flex max-w-fit flex-wrap items-center justify-center gap-2 rounded-full border border-black/10 bg-white/60 px-4 py-2 text-xs sm:mx-0 sm:justify-start sm:text-sm">
+  <span className="h-2 w-2 rounded-full bg-brand-primary" aria-hidden="true" />
+  Rockwood Mall • Mississauga
+</p>
+
 
             <h1 className="mt-5 text-3xl font-extrabold tracking-tight sm:text-5xl">
               Fast, reliable phone repairs — and the accessories you need.

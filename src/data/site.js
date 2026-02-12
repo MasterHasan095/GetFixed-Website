@@ -1,21 +1,21 @@
 export const BUSINESS = {
   name: "GetFixed Phone & Accessories",
   addressLine: "Rockwood Mall, 4141 Dixie Rd, Mississauga, ON L4W 1V5",
-  unitInfo: "Near K7 / Shop #K5",
+  unitInfo: "Shop #K7 / Shop #K5",
   // Placeholders (replace later)
-  PHONE_NUMBER: "+1-4379298972",
+  PHONE_NUMBER: "+1-6473954450",
   GOOGLE_MAPS_URL: "https://maps.google.com/?q=GetFixed+Rockwood+Mall",
-  WHATSAPP_NUMBER: "14379298972"
+  WHATSAPP_NUMBER: "16473954450"
 };
 
 export const HOURS = [
-  { day: "Mon", hours: "10:00 AM – 8:00 PM" },
-  { day: "Tue", hours: "10:00 AM – 8:00 PM" },
-  { day: "Wed", hours: "10:00 AM – 8:00 PM" },
-  { day: "Thu", hours: "10:00 AM – 8:00 PM" },
-  { day: "Fri", hours: "10:00 AM – 8:00 PM" },
-  { day: "Sat", hours: "10:00 AM – 7:00 PM" },
-  { day: "Sun", hours: "12:00 PM – 6:00 PM" }
+  { day: "Mon", hours: "9:00 AM – 7:30 PM" },
+  { day: "Tue", hours: "9:00 AM – 7:30 PM" },
+  { day: "Wed", hours: "9:00 AM – 7:30 PM" },
+  { day: "Thu", hours: "9:00 AM – 7:30 PM" },
+  { day: "Fri", hours: "9:00 AM – 7:30 PM" },
+  { day: "Sat", hours: "9:00 AM – 7:00 PM" },
+  { day: "Sun", hours: "11:00 PM – 6:00 PM" }
 ];
 
 export const SERVICES = [
@@ -24,7 +24,6 @@ export const SERVICES = [
   { title: "Charging Port Repair", desc: "Loose port, no charge, or intermittent connection." },
   { title: "Camera Repair", desc: "Blurry lens, focus issues, or camera not opening." },
   { title: "Speaker/Mic Repair", desc: "Low volume, muffled sound, or call audio problems." },
-  { title: "Water Damage", desc: "Assessment + recovery options with clear next steps." },
   { title: "Data Transfer", desc: "Move photos, contacts, and apps to your new device." },
   { title: "Diagnostics", desc: "Quick checks to identify issues before you decide." }
 ];
@@ -45,19 +44,15 @@ export const ACCESSORY_CATEGORIES = [
 export const FAQS = [
   {
     q: "How long does a repair usually take?",
-    a: "Most common repairs can be completed the same day. Timing depends on the issue and parts availability—call for a quick estimate."
-  },
-  {
-    q: "Do you offer a warranty?",
-    a: "Yes—warranty details depend on the repair/part type. Ask in-store or on the phone for the current warranty terms (placeholder)."
+    a: "Most common repairs can be completed the same day. Timing depends on the issue and parts availability—call for a quick estimate or drop-in for a quick diagnosis."
   },
   {
     q: "How do you price repairs?",
-    a: "We quote based on the device model and the exact issue. We’ll confirm the total before starting any work."
+    a: "We quote based on the device model and the exact issue. We’ll confirm the total and fill out the details on a consent form before starting any work."
   },
   {
     q: "Is my data safe during repair?",
-    a: "We respect your privacy. Many repairs don’t require accessing your data. For any case where testing is needed, we’ll explain what’s required."
+    a: "We respect your privacy. Many repairs don’t require accessing your data. For any case where testing is needed or we need access to the data, we’ll explain what’s required."
   },
   {
     q: "Do you accept walk-ins?",
