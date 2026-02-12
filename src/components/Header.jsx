@@ -4,6 +4,7 @@ import { BUSINESS, getTelLink, getWhatsAppLink } from "../data/site.js";
 import { cn } from "./ui/cn.js";
 import Container from "./ui/Container.jsx";
 import Button from "./ui/Button.jsx";
+import logo from "../assets/logo.svg";
 
 const NAV = [
   { label: "Home", href: "#home" },
@@ -37,7 +38,7 @@ export default function Header() {
       <Container className="flex h-20 items-center justify-between gap-3">
         <a href="#home" className="flex items-center gap-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-primary/40">
           <img
-            src="/src/assets/logo.svg"
+            src={logo}
             alt={`${BUSINESS.name} logo`}
             className="h-10 w-10"
             width="40"
