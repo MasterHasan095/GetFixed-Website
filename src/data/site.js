@@ -1,7 +1,7 @@
 export const BUSINESS = {
   name: "GetFixed Phone & Accessories",
   addressLine: "Rockwood Mall, 4141 Dixie Rd, Mississauga, ON L4W 1V5",
-  unitInfo: "Shop #K7 / Shop #K5",
+  unitInfo: "Shop #K7 (In front of TD Bank) / Shop #K5 (In front of CIBC Bank)",
   // Placeholders (replace later)
   PHONE_NUMBER: "+1-6473954450",
   GOOGLE_MAPS_URL: "https://maps.google.com/?q=GetFixed+Rockwood+Mall",
